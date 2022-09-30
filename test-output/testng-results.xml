@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Tyss--> test3]]>
     </line>
     <line>
+      <![CDATA[Tyss--> test1]]>
+    </line>
+    <line>
       <![CDATA[Tyss--> test4]]>
     </line>
+    <line>
+      <![CDATA[Tyss--> test2]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-07-20T16:34:29Z" name="Default suite" finished-at="2022-07-20T16:34:29Z" duration-ms="89">
+  <suite started-at="2022-07-27T09:09:53Z" name="Suite" finished-at="2022-07-27T09:09:53Z" duration-ms="70">
     <groups>
     </groups>
-    <test started-at="2022-07-20T16:34:29Z" name="Default test" finished-at="2022-07-20T16:34:29Z" duration-ms="89">
+    <test started-at="2022-07-27T09:09:53Z" name="Test" finished-at="2022-07-27T09:09:53Z" duration-ms="70">
+      <class name="org.mavenExample.Rakesh">
+        <test-method signature="mn()[pri:0, instance:org.mavenExample.Rakesh@3c01cfa1]" started-at="2022-07-27T14:39:53Z" name="mn" finished-at="2022-07-27T14:39:53Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mn -->
+      </class> <!-- org.mavenExample.Rakesh -->
       <class name="org.mavenExample.TestNgExample2Test">
-        <test-method signature="practice1Test()[pri:0, instance:org.mavenExample.TestNgExample2Test@2b175c00]" started-at="2022-07-20T22:04:29Z" name="practice1Test" finished-at="2022-07-20T22:04:29Z" duration-ms="31" status="PASS">
+        <test-method signature="practice1Test()[pri:0, instance:org.mavenExample.TestNgExample2Test@b978d10]" started-at="2022-07-27T14:39:53Z" name="practice1Test" finished-at="2022-07-27T14:39:53Z" duration-ms="20" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tyss--> test3]]>
             </line>
           </reporter-output>
         </test-method> <!-- practice1Test -->
-        <test-method signature="practice2Test()[pri:0, instance:org.mavenExample.TestNgExample2Test@2b175c00]" started-at="2022-07-20T22:04:29Z" name="practice2Test" finished-at="2022-07-20T22:04:29Z" duration-ms="6" status="PASS">
+        <test-method signature="practice2Test()[pri:0, instance:org.mavenExample.TestNgExample2Test@b978d10]" started-at="2022-07-27T14:39:53Z" name="practice2Test" finished-at="2022-07-27T14:39:53Z" duration-ms="5" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tyss--> test4]]>
@@ -28,6 +40,22 @@
           </reporter-output>
         </test-method> <!-- practice2Test -->
       </class> <!-- org.mavenExample.TestNgExample2Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="org.mavenExample.TestNgExample1Test">
+        <test-method signature="practice1Test()[pri:0, instance:org.mavenExample.TestNgExample1Test@5b7a8434]" started-at="2022-07-27T14:39:53Z" name="practice1Test" finished-at="2022-07-27T14:39:53Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Tyss--> test1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- practice1Test -->
+        <test-method signature="practice2Test()[pri:0, instance:org.mavenExample.TestNgExample1Test@5b7a8434]" started-at="2022-07-27T14:39:53Z" name="practice2Test" finished-at="2022-07-27T14:39:53Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Tyss--> test2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- practice2Test -->
+      </class> <!-- org.mavenExample.TestNgExample1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
